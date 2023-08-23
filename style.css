@@ -94,13 +94,13 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 370px) {
   .container {
     position: absolute;
-    margin-top: -60px;
+    margin-top: -400px;
     margin-left: 8px;
-    height: 350px;
-    width: 180px;
+    height: 1800px;
+    max-width: 700px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
   }
@@ -110,19 +110,24 @@ body {
     font-size: 24px;
   }
 
-  .subheading,
-  .description {
+  .mobile {
+    font-size: 55px;
     position: absolute;
-    font-size: 14px;
+    margin-top: 550px;
+    margin-left: 50px;
+  }
+
+  .desktop {
+    display: none;
   }
 
   .mobileimg {
     position: absolute;
     display: block;
-    margin-left: 0.2px;
-    margin-top: -10px;
-    height: 120px;
-    width: 180px;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 450px;
+    max-width: 640px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 0px;
@@ -132,43 +137,37 @@ body {
   }
   .title {
     position: absolute;
-    margin-left: 10px;
-    margin-top: 120px;
-    font-size: 8px;
+    margin-left: 50px;
+    margin-top: 500px;
+    font-size: 20px;
   }
-  .subheading {
-    margin-left: 10px;
-    margin-top: 140px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+
   .description {
     position: absolute;
-    margin-top: 185px;
-    margin-left: 11px;
-    font-size: 8px;
+    margin-top: 700px;
+    margin-left: 50px;
+    font-size: 33px;
     line-height: 0.8;
   }
   .price {
     position: absolute;
-    margin-top: 250px;
-    margin-left: 10px;
-    font-size: 18px;
+    margin-top: 970px;
+    margin-left: 50px;
+    font-size: 52px;
   }
   .price2 {
     position: absolute;
-    margin-left: 89px;
-    margin-top: 255px;
-    font-size: 10px;
+    margin-left: 300px;
+    margin-top: 985px;
+    font-size: 30px;
   }
   .button {
-    margin-left: 10px;
+    margin-left: 50px;
     position: absolute;
-    width: 160px;
-    height: 35px;
-    margin-top: 290px;
-    font-size: 8px;
+    width: 500px;
+    height: 70px;
+    margin-top: 1100px;
+    font-size: 26px;
     border-radius: 5px;
   }
 }
