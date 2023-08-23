@@ -51,7 +51,7 @@ body {
 .description {
   position: absolute;
   margin-left: 400px;
-  margin-top: 230px;
+  margin-top: 185px;
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   font-size: 15px;
@@ -63,7 +63,7 @@ body {
 .price {
   position: absolute;
   margin-left: 400px;
-  margin-top: 370px;
+  margin-top: 325px;
   font-size: 34px;
   font-family: "Fraunces", serif;
   color: hsl(158, 36%, 37%);
@@ -72,15 +72,15 @@ body {
 .price2 {
   position: absolute;
   margin-left: 560px;
-  margin-top: 385px;
+  margin-top: 340px;
   color: hsl(228, 12%, 48%);
   text-decoration: line-through;
 }
 
 .button {
   position: absolute;
-  margin-left: 405px;
-  margin-top: 438px;
+  margin-left: 403px;
+  margin-top: 400px;
   background-color: hsl(158, 36%, 37%);
   color: white;
   font-weight: bold;
